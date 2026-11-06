@@ -1,0 +1,1 @@
+pytest>=8.0\npandas>=2.0\nrequests>=2.31\n

@@ -1,0 +1,1 @@
+Tax arithmetic/slabs/rebate/cess: rule-based for auditability. Plain text extraction: hybrid parser plus clarifying question. LLM only for extracting/clarifying facts or explanations, never authoritative arithmetic. Surcharge/marginal relief requires deterministic addition and official validation.

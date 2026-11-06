@@ -1,0 +1,117 @@
+{
+  "rows": 99200,
+  "columns": 44,
+  "created_date_min": "2026-10-26 09:16:24",
+  "created_date_max": "2026-11-04 02:05:23",
+  "year_counts": {
+    "2026": 99195
+  },
+  "duplicate_unique_key_rows": 0,
+  "null_counts": {
+    "Unique Key": 0,
+    "Created Date": 5,
+    "Closed Date": 28198,
+    "Agency": 5,
+    "Agency Name": 5,
+    "Problem (formerly Complaint Type)": 5,
+    "Problem Detail (formerly Descriptor)": 1923,
+    "Additional Details": 64085,
+    "Location Type": 7240,
+    "Incident Zip": 858,
+    "Incident Address": 2486,
+    "Street Name": 2488,
+    "Cross Street 1": 28708,
+    "Cross Street 2": 28699,
+    "Intersection Street 1": 28747,
+    "Intersection Street 2": 28713,
+    "Address Type": 589,
+    "City": 5872,
+    "Landmark": 35543,
+    "Facility Type": 98992,
+    "Status": 5,
+    "Due Date": 98865,
+    "Resolution Description": 12013,
+    "Resolution Action Updated Date": 11211,
+    "Community Board": 5,
+    "Council District": 2080,
+    "Police Precinct": 5,
+    "BBL": 10424,
+    "Borough": 5,
+    "X Coordinate (State Plane)": 1601,
+    "Y Coordinate (State Plane)": 1597,
+    "Open Data Channel Type": 5,
+    "Park Facility Name": 111,
+    "Park Borough": 5,
+    "Vehicle Type": 94599,
+    "Taxi Company Borough": 99124,
+    "Taxi Pick Up Location": 98134,
+    "Bridge Highway Name": 98669,
+    "Bridge Highway Direction": 98882,
+    "Road Ramp": 98920,
+    "Bridge Highway Segment": 98670,
+    "Latitude": 1604,
+    "Longitude": 1604,
+    "Location": 1604
+  },
+  "examples": {
+    "Created Date": [
+      "11/04/2026 02:05:23 AM",
+      "11/04/2026 02:04:46 AM",
+      "11/04/2026 02:04:27 AM"
+    ],
+    "Closed Date": [
+      "11/04/2026 02:06:01 AM",
+      "11/04/2026 02:02:01 AM",
+      "11/04/2026 02:05:10 AM"
+    ],
+    "Agency": [
+      "NYPD",
+      "NYPD",
+      "DOT"
+    ],
+    "Problem (formerly Complaint Type)": [
+      "Noise - Residential",
+      "Noise - Residential",
+      "Highway Condition"
+    ],
+    "Problem Detail (formerly Descriptor)": [
+      "Banging/Pounding",
+      "Loud Music/Party",
+      "Painted Line/Marking"
+    ],
+    "Status": [
+      "In Progress",
+      "In Progress",
+      "In Progress"
+    ],
+    "Resolution Description": [
+      "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention."
+    ],
+    "Incident Zip": [
+      "10023.0",
+      "11226.0",
+      "10465.0"
+    ],
+    "Borough": [
+      "MANHATTAN",
+      "BROOKLYN",
+      "QUEENS"
+    ],
+    "Latitude": [
+      "40.77246288137",
+      "40.65468025579",
+      "40.84671350148"
+    ],
+    "Longitude": [
+      "-73.98984401161",
+      "-73.94999807256",
+      "-73.82381203647"
+    ]
+  },
+  "closed_before_created": 81,
+  "assignment_target_year": 2023,
+  "target_year_rows": 0,
+  "analysis_dataset": "uploaded data (target year absent)"
+}

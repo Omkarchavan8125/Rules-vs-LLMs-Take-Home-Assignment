@@ -1,0 +1,5 @@
+# Project A — Income Tax Engine
+Implements FY 2024-25 old/new salary tax rules and FY 2025-26 new regime update starter. Includes three approaches: deterministic, Gemini query-time adapter, compiled rules. Run `pip install -r requirements.txt`, then `python run_project.py --income 1200000`; tests with `pytest`.
+
+Caution: assignment requires exact tax, official calculator 30-case validation, HRA, 80C/80CCD(1B)/80D, self-occupied home loan, rebate, surcharge/marginal relief, cess. This starter exposes some deduction inputs but surcharge/marginal relief and comprehensive official validation remain gaps. Do not submit as fully validated tax software.
+\n## Single-command reproducibility (Python 3.10+)\nFrom this directory run `python run_all.py`. It installs requirements, runs tests, regenerates the test case fixtures and writes every calculated scenario to `results/reproduced_results.json`. Results are reproducible under the stated tax-rule configuration; external official validation remains clearly separate.\n

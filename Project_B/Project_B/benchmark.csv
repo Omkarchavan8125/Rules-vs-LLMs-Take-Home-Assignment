@@ -1,0 +1,37 @@
+problem,detector,detection_rate,false_alarm_rate,tp,fn,fp,tn,clean_false_alarm_rate,latency_ms,throughput_rows_sec,estimated_cost_usd_per_million_rows,cost_note
+renamed_or_dropped_column,rules,1.0,1.0,2976,0,96224,0,0.0,0.217,457130217.6,0.0,local execution
+renamed_or_dropped_column,statistics,1.0,1.0,2976,0,96224,0,0.0,0.036,2752191765.8,0.0,local execution
+renamed_or_dropped_column,llm_review_proxy,1.0,1.0,2976,0,96224,0,0.0,0.017,5846988097.4,,local proxy; Gemini cost not measured
+column_type_change,rules,1.0,0.0087,2976,0,835,95389,0.0092,29.719,3337977.2,0.0,local execution
+column_type_change,statistics,1.0,0.0087,2976,0,835,95389,0.0092,17.538,5656276.3,0.0,local execution
+column_type_change,llm_review_proxy,1.0,0.0087,2976,0,835,95389,0.0092,26.91,3686377.6,,local proxy; Gemini cost not measured
+date_format_switch,rules,1.0,0.0,2976,0,0,96224,0.0,37.251,2662987.3,0.0,local execution
+date_format_switch,statistics,1.0,0.0,2976,0,0,96224,0.0,26.911,3686161.0,0.0,local execution
+date_format_switch,llm_review_proxy,1.0,0.0,2976,0,0,96224,0.0,22.577,4393783.5,,local proxy; Gemini cost not measured
+lat_lon_swapped,rules,0.0,0.0,0,2976,0,96224,0.0,0.827,119954098.2,0.0,local execution
+lat_lon_swapped,statistics,0.0,0.0,0,2976,0,96224,0.0,0.451,220191468.9,0.0,local execution
+lat_lon_swapped,llm_review_proxy,0.0,0.0,0,2976,0,96224,0.0,0.383,259092393.1,,local proxy; Gemini cost not measured
+exact_duplicates,rules,1.0,0.0,5952,0,0,96224,0.0,12.512,8166492.3,0.0,local execution
+exact_duplicates,statistics,1.0,0.0,5952,0,0,96224,0.0,7.695,13277963.4,0.0,local execution
+exact_duplicates,llm_review_proxy,1.0,0.0,5952,0,0,96224,0.0,6.541,15620585.6,,local proxy; Gemini cost not measured
+near_duplicates,rules,1.0,0.0,2976,0,0,96224,0.0,13.703,7239049.8,0.0,local execution
+near_duplicates,statistics,1.0,0.0,2976,0,0,96224,0.0,12.543,7908590.7,0.0,local execution
+near_duplicates,llm_review_proxy,1.0,0.0,2976,0,0,96224,0.0,18.976,5227755.2,,local proxy; Gemini cost not measured
+agency_null_spike,rules,1.0,0.0001,2976,0,5,96219,0.0001,2.711,36594714.3,0.0,local execution
+agency_null_spike,statistics,1.0,0.0001,2976,0,5,96219,0.0,5.066,19581585.7,0.0,local execution
+agency_null_spike,llm_review_proxy,1.0,0.0001,2976,0,5,96219,0.0001,2.492,39799462.1,,local proxy; Gemini cost not measured
+closed_before_created,rules,1.0,0.0008,2976,0,78,96146,0.0007,4584.843,21636.5,0.0,local execution
+closed_before_created,statistics,1.0,0.0008,2976,0,78,96146,0.0007,4469.857,22193.1,0.0,local execution
+closed_before_created,llm_review_proxy,1.0,0.0008,2976,0,78,96146,0.0007,4479.964,22143.0,,local proxy; Gemini cost not measured
+zip_borough_inconsistent,rules,0.0,0.0,0,2976,0,96224,0.0,57.686,1719639.8,0.0,local execution
+zip_borough_inconsistent,statistics,0.0,0.0,0,2976,0,96224,0.0,53.632,1849653.7,0.0,local execution
+zip_borough_inconsistent,llm_review_proxy,0.0,0.0,0,2976,0,96224,0.0,53.542,1852767.5,,local proxy; Gemini cost not measured
+complaint_descriptor_inconsistent,rules,1.0,0.0,2976,0,0,96224,0.0,11.825,8389317.8,0.0,local execution
+complaint_descriptor_inconsistent,statistics,1.0,0.0,2976,0,0,96224,0.0,9.859,10061763.2,0.0,local execution
+complaint_descriptor_inconsistent,llm_review_proxy,1.0,0.0,2976,0,0,96224,0.0,11.268,8803493.4,,local proxy; Gemini cost not measured
+resolution_status_contradiction,rules,1.0,0.0,2976,0,0,96224,0.0,200.768,494102.5,0.0,local execution
+resolution_status_contradiction,statistics,1.0,0.0,2976,0,0,96224,0.0,204.467,485164.6,0.0,local execution
+resolution_status_contradiction,llm_review_proxy,1.0,0.0,2976,0,0,96224,0.0,212.794,466179.0,,local proxy; Gemini cost not measured
+pii_in_free_text,rules,1.0,0.0178,2976,0,1710,94514,0.0195,2741.231,36188.1,0.0,local execution
+pii_in_free_text,statistics,1.0,0.0178,2976,0,1710,94514,0.0195,2672.4,37120.2,0.0,local execution
+pii_in_free_text,llm_review_proxy,1.0,0.0178,2976,0,1710,94514,0.0195,2634.544,37653.6,,local proxy; Gemini cost not measured

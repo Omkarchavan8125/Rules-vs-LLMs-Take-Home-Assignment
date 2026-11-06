@@ -1,0 +1,1 @@
+-e "__pycache__/\nvenv/\n.venv/\n*.csv\n*.json\n.DS_Store" 

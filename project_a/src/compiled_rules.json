@@ -1,0 +1,5 @@
+{
+  "source": "Finance (No. 2) Bill, 2024 supplied by user; FY24-25 slab parameterization reviewed manually",
+  "rules": "SLABS in tax_engine.py",
+  "status": "review required; compiled rules are static executable configuration"
+}

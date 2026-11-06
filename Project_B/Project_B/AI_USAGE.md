@@ -1,0 +1,1 @@
+# AI Usage Note\n\nAI assistance was used to draft and structure code/documentation. The LLM-review detector in this runnable project is explicitly a deterministic proxy; no Gemini API call was made. Validate every detector and be prepared to explain its logic.\n
